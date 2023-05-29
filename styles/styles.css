@@ -309,6 +309,11 @@ section {
   text-transform: uppercase;
   font-weight: 500;
 }
+.about-stats .progress-bars .progress-bar .prog-subtitle {
+  font-style: italic;
+  font-weight: 300;
+  font-size: medium;
+}
 .about-stats .progress-bars .progress-bar .progress-con {
   display: flex;
   align-items: center;
@@ -333,31 +338,31 @@ section {
   width: 60%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .crypto {
-  width: 90%;
+  width: 95%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .gdb {
-  width: 80%;
-}
-.about-stats .progress-bars .progress-bar .progress-con .progress .docker {
   width: 70%;
 }
-.about-stats .progress-bars .progress-bar .progress-con .progress .C {
-  width: 75%;
+.about-stats .progress-bars .progress-bar .progress-con .progress .research {
+  width: 95%;
 }
-.about-stats .progress-bars .progress-bar .progress-con .progress .Cpp {
-  width: 90%;
+.about-stats .progress-bars .progress-bar .progress-con .progress .programming {
+  width: 95%;
 }
-.about-stats .progress-bars .progress-bar .progress-con .progress .python {
-  width: 90%;
+.about-stats .progress-bars .progress-bar .progress-con .progress .pentest {
+  width: 70%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .devops {
+  width: 70%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .unix {
-  width: 70%;
+  width: 50%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .ml {
-  width: 80%;
+  width: 50%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .static {
-  width: 70%;
+  width: 50%;
 }
 
 .stat-title {
@@ -816,7 +821,6 @@ section {
   transform: translateX(0);
   transition: all 0.4s ease-out;
 }  */
-
 .contact-content-con {
   display: flex;
   padding-top: 3.5rem;
@@ -855,11 +859,11 @@ section {
   align-items: center;
   font-size: 1.3rem;
 }
-.contact-content-con .left-contact .contact-icon {
+.contact-icon {
   display: flex;
-  margin-top: 2rem;
+  /* margin-top: 2rem; */
 }
-.contact-content-con .left-contact .contact-icon a {
+.contact-icon a {
   display: flex;
   align-items: center;
   color: var(--color-white);
@@ -872,13 +876,13 @@ section {
   margin: 0 0.4rem;
   transition: all 0.4s ease-in-out;
 }
-.contact-content-con .left-contact .contact-icon a:hover {
+.contact-icon a:hover {
   background-color: var(--color-secondary);
 }
-.contact-content-con .left-contact .contact-icon a:hover i {
+.contact-icon a:hover i {
   color: var(--color-primary);
 }
-.contact-content-con .left-contact .contact-icon a i {
+.contact-icon a i {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -918,7 +922,8 @@ section {
 /*Independed components*/
 .btn-con {
   display: flex;
-  align-self: flex-start;
+  margin-top: 2em;
+  justify-content: space-between;
 }
 
 
