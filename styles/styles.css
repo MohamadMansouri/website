@@ -64,6 +64,12 @@ a {
   font-family: inherit;
 }
 
+mylink {
+  display: inline-block;
+  font-family: inherit;
+}
+
+
 header {
   min-height: 100vh;
   color: var(--color-white);
@@ -286,6 +292,11 @@ section {
   padding: 1rem;
   color: var(--color-grey-1);
 }
+
+.about-container .left-about p a {
+  color: var(--color-secondary);
+}
+
 .about-container .left-about h4 {
   font-size: 2rem;
   text-transform: uppercase;
